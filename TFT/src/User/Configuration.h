@@ -45,7 +45,7 @@
 
 //                       PLA      PETG       ABS
 #define PREHEAT_BED      {60,      70,       100}
-#define PREHEAT_HOTEND   {210,     250,      230}
+#define PREHEAT_HOTEND   {215,     250,      230}
 #define PREHEAT_TEXT     {"PLA",  "PETG",   "ABS"}
 
 #define HEAT_MAX_TEMP    {150,    275,       275,       275,       275,       275,       275}    //max temperature can be set
@@ -66,7 +66,7 @@
 // Default move speed mm/min
 #define DEFAULT_SPEED_MOVE      3000
 #define SPEED_MOVE_SLOW         1000
-#define SPEED_MOVE_FAST         5000
+#define SPEED_MOVE_FAST         6000
 // Extrude speed mm/min
 #define EXTRUDE_SLOW_SPEED      60
 #define EXTRUDE_NORMAL_SPEED    600
@@ -133,7 +133,7 @@
 
 //Invert the Z Axis move Direction
 // this does not work if LIST MODE is enabled. To invert z axis in LIST MODE go to setting->feature settings
-//#define INVERT_ZAXIS
+#define INVERT_ZAXIS
 
 // Enable Unified Move Menu
 // Move, Home, Extrude, ABL at one Place and bring Gcode Menu on Home Menu
